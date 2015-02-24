@@ -14,7 +14,7 @@
             <div class="favicon"><img src="http://blog.maggie.red/favicon.ico"/></div>
 
             <div class="quote">
-                <p class="quote-text animate-init">奇妙世界，追逐不停</p>
+                <p class="quote-text animate-init">奇妙世界，追赶不停</p>
             </div>
         </div>
         <div class="menu">
@@ -34,7 +34,7 @@
         var DELAY_STEP = 200;
         var animationOptions = { opacity: 1, top: 0};
 
-        $('h1').animate(animationOptions).promise()
+        $('.favicon').animate(animationOptions).promise()
                 .pipe(animateMain)
                 .pipe(animateLocationIcon);
 
